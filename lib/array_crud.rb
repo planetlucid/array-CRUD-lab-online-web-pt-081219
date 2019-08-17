@@ -19,18 +19,15 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  my_array = [1,2,3,4]
-  my_array.shift(0)
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  my_array = [1,2,3,4]
-  my_array [3]
+ array [index_number]
 end
 
 def retrieve_first_element_from_array(array)
-  my_array = [1,2,3,4]
-  my_array [0]
+  array [0]
 end
 
 def retrieve_last_element_from_array(array)
