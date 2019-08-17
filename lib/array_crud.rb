@@ -28,7 +28,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
   my_array = [1,2,3,4]
-  my_array.shift(0)
+  my_array [4]
 end
 
 def retrieve_first_element_from_array(array)
